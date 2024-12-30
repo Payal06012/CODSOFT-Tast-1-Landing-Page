@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:"poppins";
+    box-sizing: border-box;
+
+}
+
+ html,body{
+   
+    /* background: #f5deb3 ;  */
+    width: 100%;
+    height : 100%;
+}
+ #main{
+   
+    width: 100%
+    min-height : 100vh;
+    /* height:100% ; */
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 0vw 5vw ;
+    background: rgb(213, 188, 188); ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100 ;
+    font-family:poppins;
+}
+ 
+a{
+    margin : 0px 20px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#logo{
+    width:70px;
+    height :40px;
+    padding-bottom: -1px;
+}
+
+#top{
+    background-image: linear-gradient(to right, red , blue);
+
+
+    /* background-image: url(/images/3.jpg); */
+    background-position:right;
+   color:rgb(233, 205, 205);
+    background-size :contain;
+    background-repeat: no-repeat;
+
+    position:relative;
+    
+    display :flex;
+    width:100%;
+    min-height: 60vh;
+}
+
+
+#overlay{
+    position:absolute;
+    display :flex;
+    width: 100%;
+   /* bottom :40% ; */
+   justify-content: space-between;
+   text-align:center;
+}
+
+#oerlay , h1{
+    margin-top: 70px;
+    font-size: 45px;
+    color: rgb(69, 26, 26);
+     width :30%;
+     padding: 0 10vw ;
+    
+}
+
+#righrdiv {
+    display: flex;
+    width :70% ;
+    margin-top:200px;
+}
+
+
+#righrdiv p{
+    font-size: 20px;
+    display:flex ;
+    width :70% ;
+    text-align:start;
+
+}
+ i {
+    margin-top: 100px;
+    font-size: 30px;
+    padding: 1vw 2vw;
+ color :rgb(12, 255, 243) ;
+}        
+
+#bottom{
+    display:flex;
+    background-color: #b6f6ec;
+    width:100%;
+    min-height: 40vh;
+}
+
+
+#b1 {
+
+    background-color:rgba(245, 192, 1, 0.872);
+    width : 25%;
+    min-height:inherit ;
+   
+}
+
+#b2 {
+    
+   background-image: url(/images/5.jpg);
+   background-size:cover;
+   background-position:left;
+    width : 25%;
+    min-height:inherit ;
+   
+}
+
+#b3 {
+
+    /* background-color: rgba(0, 25, 247, 0.721); */
+    width : 25%;
+    min-height:inherit ;
+   
+}
+
+#b3top{
+    color:rgb(246, 220, 220);
+    min-height:20vh;
+    background-color: orangered;
+}
+
+#b3botton{
+   min-height: 20vh;
+   background-image: url(/images/boat.jpg);
+   background-size :cover;
+   background-position: center;
+
+}
+
+#b4 {
+
+    background-color:rgb(34, 239, 253);
+    width : 25%;
+    min-height:inherit ;
+   
+}
+
+
+.photo{
+    display:flex ;
+    padding : 1vw 0vw 1vw;
+    justify-content: center;
+}
+
+h2{
+    font-size: 30px;
+    color: #0a3288e4;
+    padding: 2vw  2vw 1vw 2vw;
+}
+ p{
+  
+   width :108%;
+   padding : 0  3vw ;
+   font-size: 18px;
+}
+
+ .img {
+    margin-left: 20px;
+    background-image: url(/images/5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    /* background-color: rgb(122, 139, 152); */
+    width:80px;
+    border-radius: 30%;
+    
+  
+}
+
+
+
